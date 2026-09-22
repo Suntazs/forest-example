@@ -22,8 +22,8 @@ export default function PerkamCirsmuHero() {
             playsInline
             className="w-full h-full"
           />
-          {/* Dark overlay for better text visibility */}
-          <div className="absolute inset-0 bg-black/30 z-10"></div>
+          {/* Darkened gradient so the white text stays readable over the media */}
+          <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/65 to-black/75 z-10"></div>
 
           {/* Content overlay */}
           <div className="absolute inset-0 flex items-center justify-center px-6 md:px-12 z-20">

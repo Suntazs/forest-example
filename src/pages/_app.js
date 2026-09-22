@@ -4,7 +4,6 @@ import Navbar from '../components/layout/navbar';
 import Footer from '../components/layout/footer';
 import LocomotiveScrollProvider from '../components/providers/locomotive-scroll-provider';
 import SimplePageTransition from '../components/SimplePageTransition';
-import PageTransition from '../components/PageTransition';
 import ContactModal from '../components/models/ContactModal';
 import MenuModal from '../components/models/menu';
 import { ContactModalProvider, useContactModal } from '../contexts/ContactModalContext';
@@ -105,8 +104,7 @@ function AppContent({ Component, pageProps }) {
 
   return (
     <div className="min-h-screen overflow-x-hidden" style={{ backgroundColor: '#faf6ed' }}>
-      <PageTransition>
-        <SimplePageTransition>
+      <SimplePageTransition>
           {/* Main wrapper with push effect matching modal width */}
           {/* CRITICAL: Only apply transform when contact modal is OPEN or CLOSING */}
           {/* When fully closed, NO transform = navbar fixed positioning works on mobile */}
@@ -133,8 +131,7 @@ function AppContent({ Component, pageProps }) {
               }}
             />
           </div>
-        </SimplePageTransition>
-      </PageTransition>
+      </SimplePageTransition>
 
       {/* Menu Modal - outside transform so it doesn't move */}
       <MenuModal isOpen={menuOpen} onClose={() => setMenuOpen(false)} />

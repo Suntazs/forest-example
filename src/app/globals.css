@@ -37,8 +37,10 @@ body {
     overflow-x: hidden;
   }
 
-  /* Ensure fixed positioning works on mobile Safari and other mobile browsers */
-  nav {
+  /* Ensure fixed positioning works on mobile Safari and other mobile browsers.
+     Scoped to the site navbar - an unscoped `nav` rule pulls any other <nav>
+     (e.g. the menu modal's link list) out of flow. */
+  nav[data-site-nav] {
     position: fixed !important;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -76,31 +78,4 @@ html.has-scroll-dragging {
   vertical-align: top;
   white-space: nowrap;
   height: 100%;
-}
-
-/* Menu Modal Animations */
-.menu-reveal-open {
-  animation: menuSlideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-.menu-reveal-closed {
-  animation: menuSlideDown 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
-@keyframes menuSlideUp {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-@keyframes menuSlideDown {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(100%);
-  }
 }

@@ -3,7 +3,7 @@ import { createContext, useContext, useState, useEffect } from 'react';
 const PageTransitionContext = createContext({
   isTransitioning: false,
   animationsEnabled: true,
-  transitionComplete: false,
+  transitionComplete: true,
   setIsTransitioning: () => {},
   setAnimationsEnabled: () => {},
   setTransitionComplete: () => {},
@@ -12,15 +12,7 @@ const PageTransitionContext = createContext({
 export function PageTransitionProvider({ children }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [animationsEnabled, setAnimationsEnabled] = useState(true);
-  const [transitionComplete, setTransitionComplete] = useState(false);
-
-  // Check sessionStorage after mount to avoid hydration mismatch
-  useEffect(() => {
-    const hasVisited = sessionStorage.getItem('hasVisited');
-    if (hasVisited) {
-      setTransitionComplete(true);
-    }
-  }, []);
+  const [transitionComplete, setTransitionComplete] = useState(true);
 
   useEffect(() => {
     if (isTransitioning) {

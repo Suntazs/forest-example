@@ -1,10 +1,8 @@
 "use client";
 import React from "react";
-import { useContactModal } from '@/contexts/ContactModalContext';
 import { useTranslation } from 'next-i18next';
 
 export default function Footer() {
-  const { openContactModal } = useContactModal();
   const { t } = useTranslation('common');
   return (
     <footer className="bg-[#2a2a2a] py-16 md:py-24 lg:py-30">
@@ -81,17 +79,8 @@ export default function Footer() {
           {t('footer.copyright')}
         </div>
 
-        {/* Bottom section with button and links */}
+        {/* Bottom section with links */}
         <div className="flex flex-col gap-6">
-          {/* Contact button - full width on mobile */}
-          <div>
-            <button
-              onClick={openContactModal}
-              className="bg-[#f3ecda] text-[#2a2a2a] px-6 py-2 rounded-lg font-semibold text-base md:text-lg hover:bg-[#e6d9c2] transition-colors w-full sm:w-auto">
-              {t('footer.contactBtn')}
-            </button>
-          </div>
-
           {/* Navigation links and social - separate row */}
           <div className="flex flex-wrap items-center gap-6 md:gap-8">
             <a
@@ -105,12 +94,6 @@ export default function Footer() {
               className="text-white hover:text-gray-300 transition-colors text-base md:text-lg"
             >
               {t('footer.services')}
-            </a>
-            <a
-              href="/projects"
-              className="text-white hover:text-gray-300 transition-colors text-base md:text-lg"
-            >
-              {t('footer.projects')}
             </a>
             <a
               href="/contact"

@@ -1,255 +1,111 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useTranslation } from 'next-i18next';
+
+const MENU_LINKS = [
+  { href: "/", key: "menu.home" },
+  { href: "/about", key: "menu.about" },
+  { href: "/services", key: "menu.services" },
+  { href: "/perkam-mezu", key: "menu.perkamMezu" },
+  { href: "/perkam-cirsmu", key: "menu.perkamCirsmu" },
+  { href: "/contact", key: "menu.contact" },
+];
 
 export default function MenuModal({ isOpen, onClose }) {
   const [isMounted, setIsMounted] = useState(false);
-  const [hasBeenOpened, setHasBeenOpened] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState(null);
-  const [isHovering, setIsHovering] = useState(false);
-  const [isAnimating, setIsAnimating] = useState(false);
   const { t } = useTranslation('common');
-  
-  const handleMouseLeave = () => {
-    setIsHovering(false);
-    setTimeout(() => setHoveredIndex(null), 200);
-  };
-
-  const handleLinkMouseEnter = (index) => {
-    setHoveredIndex(index);
-    setIsHovering(true);
-  };
-
-  const handleLinkMouseLeave = () => {
-    setIsHovering(false);
-    setTimeout(() => setHoveredIndex(null), 100);
-  };
+  const router = useRouter();
 
   useEffect(() => {
     setIsMounted(true);
   }, []);
 
+  // Close on Escape
   useEffect(() => {
-    if (isOpen && !hasBeenOpened) {
-      setHasBeenOpened(true);
-      // Start with closed state, then animate open
-      setTimeout(() => setIsAnimating(true), 50);
-    } else if (isOpen) {
-      setIsAnimating(true);
-    } else {
-      setIsAnimating(false);
-    }
-  }, [isOpen, hasBeenOpened]);
+    if (!isOpen) return;
 
-  // Prevent body scroll when menu is open on mobile
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
+  // Prevent body scroll while the menu is open
   useEffect(() => {
-    if (isOpen) {
-      // Save current scroll position
-      const scrollY = window.scrollY;
+    if (!isOpen) return;
 
-      // Prevent scroll on mobile
-      document.body.style.position = 'fixed';
-      document.body.style.top = `-${scrollY}px`;
-      document.body.style.width = '100%';
-      document.body.style.overflow = 'hidden';
+    const scrollY = window.scrollY;
 
-      // Also prevent touch scrolling
-      document.documentElement.style.overflow = 'hidden';
-      document.documentElement.style.position = 'fixed';
-      document.documentElement.style.width = '100%';
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = '100%';
+    document.body.style.overflow = 'hidden';
 
-      return () => {
-        // Restore scroll
-        const savedScrollY = document.body.style.top;
-        document.body.style.position = '';
-        document.body.style.top = '';
-        document.body.style.width = '';
-        document.body.style.overflow = '';
+    return () => {
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      document.body.style.overflow = '';
 
-        document.documentElement.style.overflow = '';
-        document.documentElement.style.position = '';
-        document.documentElement.style.width = '';
-
-        window.scrollTo(0, parseInt(savedScrollY || '0', 10) * -1);
-      };
-    }
+      window.scrollTo(0, scrollY);
+    };
   }, [isOpen]);
 
-
-  // Don't render anything until mounted and has been opened at least once
-  if (!isMounted || !hasBeenOpened) return null;
+  if (!isMounted) return null;
 
   return (
-    <>
-      {/* Backdrop */}
-      <div
-        className={`fixed inset-0 bg-black/30 z-[19998] transition-opacity duration-300 md:duration-600 ${
-          isAnimating ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
-        style={{ touchAction: 'none' }}
-        onClick={onClose}
-      />
-
-      {/* Modal */}
-      <div
-        className={`fixed bottom-0 left-0 right-0 z-[19999] h-auto ${
-          isAnimating ? 'menu-reveal-open' : 'menu-reveal-closed'
-        }`}
-        style={{
-          transformOrigin: 'bottom right',
-          willChange: 'transform'
-        }}
-      >
-        {/* Background - Split colors */}
-        <div className="absolute inset-0 bg-[#f3ecda]"></div>
-        
-        {/* Black line at top - full width on desktop, shows on mobile too */}
-        <div className={`absolute top-0 left-0 w-full h-[2px] bg-neutral-900 z-10 transition-opacity duration-1100 ${
-          isAnimating ? 'opacity-100' : 'opacity-0'
-        }`}></div>
-        
-        {/* Menu Content */}
-        <div className="relative h-full flex flex-col pt-[2px]">
-          {/* Header with close button - absolute on desktop, static on mobile */}
-          <div className="sm:absolute sm:top-0 sm:right-0 sm:z-20 sm:p-4 bg-[#f3ecda] sm:bg-transparent border-b border-neutral-900 sm:border-0">
-            <div className="flex justify-end">
-              <button 
-                onClick={onClose}
-                className="text-neutral-900 hover:text-[#243c36] transition-colors p-4 sm:p-2 hover:bg-neutral-900/5 border-l border-neutral-900 sm:border sm:border-neutral-900 sm:rounded-lg"
-              >
-                <svg className="w-7 h-7 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-
-          {/* Main Container - Responsive Layout */}
-          <div className="flex-1 flex flex-col overflow-y-auto sm:overflow-visible sm:pt-0" style={{ WebkitOverflowScrolling: 'touch' }}>
-            {/* Navigation Links - Full width */}
-            <div 
-              className="flex flex-col sm:grid sm:grid-cols-2 w-full relative"
-              onMouseLeave={handleLinkMouseLeave}
-            >
-              {/* Hover background effect for desktop */}
-              {hoveredIndex !== null && hoveredIndex < 6 && (
-                <div
-                  className={`absolute pointer-events-none z-0 transition-all ease-out hidden sm:block ${isHovering ? 'opacity-100 duration-200' : 'opacity-0 duration-300'}`}
-                  style={{
-                    left: hoveredIndex >= 3 ? '50%' : '0%',
-                    top: `${(hoveredIndex % 3) * 33.33}%`,
-                    width: '50%',
-                    height: '33.33%',
-                    backgroundColor: '#dbf6a3'
-                  }}
-                />
-              )}
-
-              {/* Left Column on desktop / All links stacked on mobile */}
-              <div className="sm:border-r border-neutral-900 relative z-0">
-                <Link 
-                  href="/" 
-                  onMouseEnter={() => handleLinkMouseEnter(0)}
-                  className="relative z-10 group block text-2xl sm:text-3xl lg:text-5xl font-light text-neutral-900 hover:text-[#243c36] hover:bg-[#dbf6a3] sm:hover:bg-transparent transition-colors py-4 sm:py-5 lg:py-6 px-6 sm:px-8 border-b border-neutral-900 text-left sm:text-center"
-                  onClick={onClose}
-                >
-                  {t('menu.home')}
-                </Link>
-                <Link 
-                  href="/about" 
-                  onMouseEnter={() => handleLinkMouseEnter(1)}
-                  className="relative z-10 group block text-2xl sm:text-3xl lg:text-5xl font-light text-neutral-900 hover:text-[#243c36] hover:bg-[#dbf6a3] sm:hover:bg-transparent transition-colors py-4 sm:py-5 lg:py-6 px-6 sm:px-8 border-b border-neutral-900 text-left sm:text-center"
-                  onClick={onClose}
-                >
-                  {t('menu.about')}
-                </Link>
-                <Link 
-                  href="/services" 
-                  onMouseEnter={() => handleLinkMouseEnter(2)}
-                  className="relative z-10 group block text-2xl sm:text-3xl lg:text-5xl font-light text-neutral-900 hover:text-[#243c36] hover:bg-[#dbf6a3] sm:hover:bg-transparent transition-colors py-4 sm:py-5 lg:py-6 px-6 sm:px-8 border-b sm:border-b-0 border-neutral-900 text-left sm:text-center"
-                  onClick={onClose}
-                >
-                  {t('menu.services')}
-                </Link>
-              </div>
-
-              {/* Right Column on desktop / Continues stack on mobile */}
-              <div className="relative z-0">
-                <Link 
-                  href="/perkam-mezu" 
-                  onMouseEnter={() => handleLinkMouseEnter(3)}
-                  className="relative z-10 group block text-2xl sm:text-3xl lg:text-5xl font-light text-neutral-900 hover:text-[#243c36] hover:bg-[#dbf6a3] sm:hover:bg-transparent transition-colors py-4 sm:py-5 lg:py-6 px-6 sm:px-8 border-b border-neutral-900 text-left sm:text-center"
-                  onClick={onClose}
-                >
-                  {t('menu.perkamMezu')}
-                </Link>
-                <Link 
-                  href="/perkam-cirsmu" 
-                  onMouseEnter={() => handleLinkMouseEnter(4)}
-                  className="relative z-10 group block text-2xl sm:text-3xl lg:text-5xl font-light text-neutral-900 hover:text-[#243c36] hover:bg-[#dbf6a3] sm:hover:bg-transparent transition-colors py-4 sm:py-5 lg:py-6 px-6 sm:px-8 border-b border-neutral-900 text-left sm:text-center"
-                  onClick={onClose}
-                >
-                  {t('menu.perkamCirsmu')}
-                </Link>
-                <Link 
-                  href="/contact" 
-                  onMouseEnter={() => handleLinkMouseEnter(5)}
-                  className="relative z-10 group block text-2xl sm:text-3xl lg:text-5xl font-light text-neutral-900 hover:text-[#243c36] hover:bg-[#dbf6a3] sm:hover:bg-transparent transition-colors py-4 sm:py-5 lg:py-6 px-6 sm:px-8 text-left sm:text-center"
-                  onClick={onClose}
-                >
-                  {t('menu.contact')}
-                </Link>
-              </div>
-            </div>
-          </div>
+    <div
+      className="fixed inset-0 z-[19999] bg-[#faf6ed]"
+      style={{
+        transform: isOpen ? 'translateY(0)' : 'translateY(-100%)',
+        WebkitTransform: isOpen ? 'translateY(0)' : 'translateY(-100%)',
+        transition: 'transform 700ms cubic-bezier(0.4, 0, 0.2, 1)',
+        WebkitTransition: '-webkit-transform 700ms cubic-bezier(0.4, 0, 0.2, 1)',
+        visibility: isOpen ? 'visible' : 'hidden',
+        transitionProperty: 'transform, visibility',
+      }}
+      aria-hidden={!isOpen}
+    >
+      <div className="h-full flex flex-col">
+        {/* Header row - close cell mirrors the navbar's menu cell */}
+        <div className="flex items-center justify-end h-18 md:h-24 border-b border-[#2a2a2a]">
+          <button
+            onClick={onClose}
+            className="h-full w-18 md:w-24 flex items-center justify-center border-l border-[#2a2a2a] hover:bg-[#dbf6a3] transition-colors"
+            aria-label="Close menu"
+          >
+            <svg className="w-7 h-7 md:w-8 md:h-8 text-[#2a2a2a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
         </div>
+
+        {/* Links - one full-width line each */}
+        <nav className="relative w-full flex-1 overflow-y-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
+          {MENU_LINKS.map(({ href, key }) => {
+            const isActive =
+              href === "/" ? router.pathname === "/" : router.pathname.startsWith(href);
+
+            return (
+              <Link
+                key={href}
+                href={href}
+                onClick={onClose}
+                className={`block w-full px-6 sm:px-8 py-6 text-2xl sm:text-3xl font-light border-b border-[#2a2a2a] transition-colors ${
+                  isActive
+                    ? 'bg-[#dbf6a3] text-[#243c36]'
+                    : 'text-[#2a2a2a] hover:bg-[#dbf6a3] hover:text-[#243c36]'
+                }`}
+              >
+                {t(key)}
+              </Link>
+            );
+          })}
+        </nav>
       </div>
-
-      {/* Smooth Angled Animation */}
-      <style jsx>{`
-        @media (max-width: 768px) {
-          .menu-reveal-open {
-            transform: translateY(0) translateZ(0);
-            opacity: 1;
-            transition: transform 400ms cubic-bezier(0.25, 0.1, 0.25, 1),
-                        opacity 300ms ease-out;
-            -webkit-transform: translateY(0) translateZ(0);
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-          }
-
-          .menu-reveal-closed {
-            transform: translateY(100%) translateZ(0);
-            opacity: 0;
-            transition: transform 400ms cubic-bezier(0.25, 0.1, 0.25, 1),
-                        opacity 300ms ease-out;
-            -webkit-transform: translateY(100%) translateZ(0);
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-          }
-        }
-
-        @media (min-width: 769px) {
-          .menu-reveal-open {
-            transform: translateY(0) skewY(0deg);
-            opacity: 1;
-            clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
-            transition: transform 1100ms cubic-bezier(0.4, 0, 0.2, 1),
-                        clip-path 1100ms cubic-bezier(0.4, 0, 0.2, 1),
-                        opacity 1100ms cubic-bezier(0.4, 0, 0.2, 1);
-          }
-
-          .menu-reveal-closed {
-            transform: translateY(120%) skewY(-3deg);
-            opacity: 1;
-            clip-path: polygon(0 45%, 100% 0%, 100% 100%, 0 100%);
-            transition: transform 1100ms cubic-bezier(0.4, 0, 0.2, 1),
-                        clip-path 1100ms cubic-bezier(0.4, 0, 0.2, 1),
-                        opacity 1100ms cubic-bezier(0.4, 0, 0.2, 1);
-          }
-        }
-      `}</style>
-    </>
+    </div>
   );
 }
