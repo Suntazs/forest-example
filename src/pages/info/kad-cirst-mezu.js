@@ -22,7 +22,7 @@ const KadCirstMezu = () => {
         <meta name="description" content={t('articles.whenToHarvest.meta.description')} />
         <meta property="og:title" content={t('articles.whenToHarvest.meta.title')} />
         <meta property="og:description" content={t('articles.whenToHarvest.meta.description')} />
-        <link rel="canonical" href="https://amforest.lv/info/kad-cirst-mezu" />
+        <link rel="canonical" href="https://forest.lv/info/kad-cirst-mezu" />
       </Head>
 
       <ArticleHero 

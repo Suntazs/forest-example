@@ -30,10 +30,10 @@
     "send": "Nosūtīt ziņojumu"
   },
   "homeHero": {
-    "heading": "AM Forest – nodrošinām profesionālus pilna cikla mežizstrādes pakalpojumus visā Latvijā kopš 2010. gada."
+    "heading": "Forest – nodrošinām profesionālus pilna cikla mežizstrādes pakalpojumus visā Latvijā kopš 2010. gada."
   },
   "whyChooseUs": {
-    "heading": "Kāpēc izvēlēties AM Forest?",
+    "heading": "Kāpēc izvēlēties Forest?",
     "feature1": {
       "title": "Caurspīdīgi aprēķini un godīga samaksa",
       "description": "Sniedzam skaidrus aprēķinus, izskaidrojam katru pozīciju un nodrošinām savlaicīgus norēķinus bez slēptām izmaksām."
@@ -60,7 +60,7 @@
   },
   "servicesPage": {
     "heading": "Mūsu pakalpojumi",
-    "description": "AM Forest piedāvā plašu meža apsaimniekošanas un tehnikas pakalpojumu klāstu. Mūsu profesionālā komanda nodrošina kvalitatīvus risinājumus visām jūsu vajadzībām."
+    "description": "Forest piedāvā plašu meža apsaimniekošanas un tehnikas pakalpojumu klāstu. Mūsu profesionālā komanda nodrošina kvalitatīvus risinājumus visām jūsu vajadzībām."
   },
   "servicesList": {
     "treilera": {
@@ -136,7 +136,7 @@
   },
   "homeAbout": {
     "heading1": "Par",
-    "heading2": "AM Forest",
+    "heading2": "Forest",
     "description": "Strādājam ātri, kvalitatīvi un atbildīgi, jo saprotam, ka katrs meža īpašums ir vērtība. Katram klientam pieejam individuāli, piedāvājot piemērotākos risinājumus meža apsaimniekošanā un kopšanā. Mūsu pieredze un tehniskās iespējas ļauj nodrošināt stabilu darba kvalitāti jebkuras sarežģītības projektos. Gada laikā realizējam 50 000 m³ un vairāk kokmateriālu, apliecinot mūsu kapacitāti un uzticamību nozarē. Mēs esam uzņēmums, kuram rūp, lai Latvijā būtu sakopti un ilgtspējīgi apsaimniekoti meži.",
     "years": "gadi +",
     "inForestry": "Mežsaimniecībā"
@@ -145,7 +145,7 @@
     "heading1": "Pieredze",
     "heading2": "kas iedvesmo pārliecību un drošību katrā",
     "heading3": "solī",
-    "description": "Pateicoties mūsu AM Forest komandas centībai un pieredzei, mēs turpinām augt un iedvesmot pārliecību. Katrs komandas loceklis spēlē galveno lomu jūsu meža projektu panākumos, apvienojot stingrību ar cilvēcisku pieeju ilgtspējīgai meža apsaimniekošanai."
+    "description": "Pateicoties mūsu Forest komandas centībai un pieredzei, mēs turpinām augt un iedvesmot pārliecību. Katrs komandas loceklis spēlē galveno lomu jūsu meža projektu panākumos, apvienojot stingrību ar cilvēcisku pieeju ilgtspējīgai meža apsaimniekošanai."
   },
   "aboutContent": {
     "imageAlt": "Mežs ar saules gaismu",
@@ -174,7 +174,7 @@
     "imageAlt": "Mežs"
   },
   "cta": {
-    "heading": "AM Forest – uztici savu mežu profesionāļiem.",
+    "heading": "Forest – uztici savu mežu profesionāļiem.",
     "button": "Sazinies ar mums",
     "imageAlt": "Meža skats no augšas"
   },
@@ -228,7 +228,7 @@
     "ctaButton": "Saņemt piedāvājumu"
   },
   "buyingProcess": {
-    "heading": "AM forest. Pērkam meža īpašumus visos stāvokļos",
+    "heading": "Forest. Pērkam meža īpašumus visos stāvokļos",
     "relatedHeading": "Saistītie pakalpojumi kas var palīdzēt jūsu mežam",
     "moreInfoAria": "Papildu informācija",
     "relatedAria": "Saistītie pakalpojumi",
@@ -296,44 +296,44 @@
     }
   ],
   "reviewsSection": {
-    "quote": "AM Forest palīdzēja mums pārdot mūsu meža īpašumu ātri un par taisnīgu cenu. Profesionāla pieeja un lieliska komunikācija visā procesā.",
+    "quote": "Forest palīdzēja mums pārdot mūsu meža īpašumu ātri un par taisnīgu cenu. Profesionāla pieeja un lieliska komunikācija visā procesā.",
     "author": "Jānis Bērziņš",
     "googleBtn": "Atstāt atsauksmi Google"
   },
   "perkamMezuFaq": [
     {
       "question": "Kāda ir meža īpašuma cena par hektāru Latvijā 2024. gadā?",
-      "answer": "Meža īpašuma cena Latvijā 2024. gadā svārstās no 2000 līdz 8000 EUR par hektāru atkarībā no koku sugas, vecuma, bonitātes un atrašanās vietas. Priežu un egļu audzes ar labu pieejamību un 40-80 gadu vecumu sasniedz augstākās cenas. AM Forest piedāvā bezmaksas profesionālu novērtēšanu, lai noteiktu jūsu meža īpašuma precīzu tirgus vērtību."
+      "answer": "Meža īpašuma cena Latvijā 2024. gadā svārstās no 2000 līdz 8000 EUR par hektāru atkarībā no koku sugas, vecuma, bonitātes un atrašanās vietas. Priežu un egļu audzes ar labu pieejamību un 40-80 gadu vecumu sasniedz augstākās cenas. Forest piedāvā bezmaksas profesionālu novērtēšanu, lai noteiktu jūsu meža īpašuma precīzu tirgus vērtību."
     },
     {
       "question": "Kā pārdot meža īpašumu Latvijā - soli pa solim?",
-      "answer": "Meža īpašuma pārdošanas process: 1) Sazinieties ar AM Forest bezmaksas konsultācijai, 2) Mūsu eksperti veic profesionālu meža inventarizāciju un novērtēšanu, 3) Saņemat taisnīgu cenas piedāvājumu 48 stundu laikā, 4) Noformējam visus dokumentus pie notāra, 5) Nauda tiek pārskaitīta nekavējoties pēc darījuma. Vidēji process aizņem 7-14 dienas."
+      "answer": "Meža īpašuma pārdošanas process: 1) Sazinieties ar Forest bezmaksas konsultācijai, 2) Mūsu eksperti veic profesionālu meža inventarizāciju un novērtēšanu, 3) Saņemat taisnīgu cenas piedāvājumu 48 stundu laikā, 4) Noformējam visus dokumentus pie notāra, 5) Nauda tiek pārskaitīta nekavējoties pēc darījuma. Vidēji process aizņem 7-14 dienas."
     },
     {
       "question": "Vai izdevīgāk pārdot mežu ar cirsmu vai pēc izstrādes?",
-      "answer": "AM Forest pērk meža īpašumus visos stāvokļos - gan ar gatavām cirsmām, gan pēc izstrādes. Neizstrādāts mežs ar pieaugušām audzēm (60-80 gadi) bieži ir vērtīgāks, jo pircējam ir lielāka izvēles brīvība. Izstrādāti īpašumi ar jaunaudzēm (5-20 gadi) arī ir pieprasīti ilgtermiņa investīcijām. Mēs nodrošinām konkurētspējīgu cenu neatkarīgi no meža stāvokļa."
+      "answer": "Forest pērk meža īpašumus visos stāvokļos - gan ar gatavām cirsmām, gan pēc izstrādes. Neizstrādāts mežs ar pieaugušām audzēm (60-80 gadi) bieži ir vērtīgāks, jo pircējam ir lielāka izvēles brīvība. Izstrādāti īpašumi ar jaunaudzēm (5-20 gadi) arī ir pieprasīti ilgtermiņa investīcijām. Mēs nodrošinām konkurētspējīgu cenu neatkarīgi no meža stāvokļa."
     },
     {
       "question": "Kādi dokumenti nepieciešami meža īpašuma pārdošanai?",
-      "answer": "Meža pārdošanai nepieciešami: zemesgrāmatas apliecība, meža inventarizācijas dati (ne vecāki par 10 gadiem), personas apliecinošs dokuments un nodokļu nomaksas apliecinājums. AM Forest palīdz sakārtot trūkstošos dokumentus, veic jaunu inventarizāciju bez maksas un nodrošina juridisku atbalstu visā darījuma procesā, ieskaitot komunikāciju ar Valsts meža dienestu."
+      "answer": "Meža pārdošanai nepieciešami: zemesgrāmatas apliecība, meža inventarizācijas dati (ne vecāki par 10 gadiem), personas apliecinošs dokuments un nodokļu nomaksas apliecinājums. Forest palīdz sakārtot trūkstošos dokumentus, veic jaunu inventarizāciju bez maksas un nodrošina juridisku atbalstu visā darījuma procesā, ieskaitot komunikāciju ar Valsts meža dienestu."
     }
   ],
   "perkamCirsmuFaq": [
     {
       "question": "Kāda ir cirsmas cena par kubikmetru Latvijā 2024. gadā?",
-      "answer": "Cirsmas cena Latvijā 2024. gadā svārstās no 35 līdz 85 EUR par kubikmetru atkarībā no koku sugas, kvalitātes, diametra un pieejamības. Priežu un egļu cirsmas ar liela diametra kokiem un labu pieejamību sasniedz augstākās cenas. AM Forest piedāvā bezmaksas profesionālu novērtēšanu, lai noteiktu jūsu cirsmas precīzu tirgus vērtību."
+      "answer": "Cirsmas cena Latvijā 2024. gadā svārstās no 35 līdz 85 EUR par kubikmetru atkarībā no koku sugas, kvalitātes, diametra un pieejamības. Priežu un egļu cirsmas ar liela diametra kokiem un labu pieejamību sasniedz augstākās cenas. Forest piedāvā bezmaksas profesionālu novērtēšanu, lai noteiktu jūsu cirsmas precīzu tirgus vērtību."
     },
     {
       "question": "Kā pārdot cirsmu Latvijā - soli pa solim?",
-      "answer": "Cirsmas pārdošanas process: 1) Sazinieties ar AM Forest bezmaksas konsultācijai, 2) Mūsu eksperti veic profesionālu cirsmas uzmērīšanu un novērtēšanu, 3) Saņemat taisnīgu cenas piedāvājumu 24 stundu laikā, 4) Noformējam cirsmas pirkuma līgumu, 5) Nauda tiek pārskaitīta nekavējoties pēc līguma parakstīšanas. Vidēji process aizņem 3-7 dienas."
+      "answer": "Cirsmas pārdošanas process: 1) Sazinieties ar Forest bezmaksas konsultācijai, 2) Mūsu eksperti veic profesionālu cirsmas uzmērīšanu un novērtēšanu, 3) Saņemat taisnīgu cenas piedāvājumu 24 stundu laikā, 4) Noformējam cirsmas pirkuma līgumu, 5) Nauda tiek pārskaitīta nekavējoties pēc līguma parakstīšanas. Vidēji process aizņem 3-7 dienas."
     },
     {
       "question": "Vai izdevīgāk pārdot cirsmu uz celma vai izcirstu kokmateriālu?",
-      "answer": "AM Forest pērk cirsmas visos veidos - gan uz celma, gan jau izcirstus kokmateriālus. Cirsma uz celma ir ērtāka meža īpašniekam, jo visu darbu veic pircējs. Izcirsti kokmateriāli var dot lielāku peļņu, bet prasa papildu ieguldījumus un risku. Mēs nodrošinām konkurētspējīgu cenu abos gadījumos un varam palīdzēt izvēlēties izdevīgāko variantu."
+      "answer": "Forest pērk cirsmas visos veidos - gan uz celma, gan jau izcirstus kokmateriālus. Cirsma uz celma ir ērtāka meža īpašniekam, jo visu darbu veic pircējs. Izcirsti kokmateriāli var dot lielāku peļņu, bet prasa papildu ieguldījumus un risku. Mēs nodrošinām konkurētspējīgu cenu abos gadījumos un varam palīdzēt izvēlēties izdevīgāko variantu."
     },
     {
       "question": "Kādi faktori ietekmē cirsmas vērtību?",
-      "answer": "Galvenie faktori: koku suga (priede, egle, bērzs), koku diametrs un augstums, kokmateriālu kvalitāte (taisnums, zaru daudzums), pieejamība (ceļu kvalitāte, attālums), cirsmas lielums un koncentrācija. AM Forest eksperti novērtē visus šos faktorus, lai piedāvātu maksimāli izdevīgu cenu par jūsu cirsmu."
+      "answer": "Galvenie faktori: koku suga (priede, egle, bērzs), koku diametrs un augstums, kokmateriālu kvalitāte (taisnums, zaru daudzums), pieejamība (ceļu kvalitāte, attālums), cirsmas lielums un koncentrācija. Forest eksperti novērtē visus šos faktorus, lai piedāvātu maksimāli izdevīgu cenu par jūsu cirsmu."
     }
   ],
   "serviceSlug": {
@@ -345,7 +345,7 @@
   "serviceData": {
     "treilera-pakalpojumi": {
       "meta": {
-        "title": "Treilera pakalpojumi | AM Forest",
+        "title": "Treilera pakalpojumi | Forest",
         "description": "Profesionāli treilera pakalpojumi meža un kokmateriālu transportēšanai Latvijā. Droša un efektīva kravu pārvietošana.",
         "keywords": "treilera pakalpojumi, kokmateriālu transportēšana, meža tehnika"
       },
@@ -378,7 +378,7 @@
       }
     },
     "mezizvedeja-traktora-pakalpojumi": {
-      "meta": { "title": "Mežizvedēja traktora pakalpojumi | AM Forest", "description": "Specializēti mežizvedēja traktora pakalpojumi kokmateriālu savākšanai un transportēšanai sarežģītos meža apstākļos.", "keywords": "mežizvedēja traktors, kokmateriālu izvešana, meža darbi" },
+      "meta": { "title": "Mežizvedēja traktora pakalpojumi | Forest", "description": "Specializēti mežizvedēja traktora pakalpojumi kokmateriālu savākšanai un transportēšanai sarežģītos meža apstākļos.", "keywords": "mežizvedēja traktors, kokmateriālu izvešana, meža darbi" },
       "hero": { "title": "Mežizvedēja traktora pakalpojumi", "description": "Specializēti mežizvedēja traktora pakalpojumi kokmateriālu savākšanai un transportēšanai sarežģītos meža apstākļos." },
       "features": { "title": "Tehnikas priekšrocības", "items": [
         { "title": "Augsta caurejamība", "description": "Mežizvedēja traktors spēj strādāt mitrās un sarežģītās vietās, kur cita tehnika nevar piekļūt." },
@@ -393,7 +393,7 @@
       "cta": { "title": "Vajadzīga kokmateriālu izvešana?", "description": "Mūsu profesionālā komanda nodrošinās kvalitatīvu un savlaicīgu pakalpojumu.", "buttonText": "Sazināties ar mums" }
     },
     "universala-ritenu-traktora-pakalpojumi": {
-      "meta": { "title": "Universālā riteņu traktora pakalpojumi | AM Forest", "description": "9 tonnu universālā riteņu traktora pakalpojumi dažādiem meža darbiem. Profesionāla tehnika un operatori.", "keywords": "universālais traktors, riteņu traktors, meža tehnika, 9 tonnas" },
+      "meta": { "title": "Universālā riteņu traktora pakalpojumi | Forest", "description": "9 tonnu universālā riteņu traktora pakalpojumi dažādiem meža darbiem. Profesionāla tehnika un operatori.", "keywords": "universālais traktors, riteņu traktors, meža tehnika, 9 tonnas" },
       "hero": { "title": "Universālā riteņu traktora pakalpojumi", "description": "9 tonnu universālā riteņu traktora pakalpojumi dažādiem meža un lauksaimniecības darbiem." },
       "features": { "title": "Traktora iespējas", "items": [
         { "title": "9 tonnu jauda", "description": "Spēcīgs 9 tonnu traktors, kas piemērots smagiem darbiem un lielām slodzēm." },
@@ -408,7 +408,7 @@
       "cta": { "title": "Nepieciešams universālais traktors?", "description": "Profesionāla tehnika un pieredzējuši operatori jūsu projektu realizācijai.", "buttonText": "Pieprasīt pakalpojumu" }
     },
     "kezu-ekskavatora-pakalpojumi": {
-      "meta": { "title": "Ķēžu ekskavatora pakalpojumi | AM Forest", "description": "20 tonnu ķēžu ekskavatora pakalpojumi celmu raušanai, grāvju rakšanai un zemes darbiem.", "keywords": "ķēžu ekskavators, celmu raušana, grāvju rakšana, 20 tonnas" },
+      "meta": { "title": "Ķēžu ekskavatora pakalpojumi | Forest", "description": "20 tonnu ķēžu ekskavatora pakalpojumi celmu raušanai, grāvju rakšanai un zemes darbiem.", "keywords": "ķēžu ekskavators, celmu raušana, grāvju rakšana, 20 tonnas" },
       "hero": { "title": "Ķēžu ekskavatora pakalpojumi", "description": "20 tonnu ķēžu ekskavatora pakalpojumi celmu raušanai un grāvju rakšanai. Precīzi un efektīvi zemes darbi." },
       "features": { "title": "Ekskavatora priekšrocības", "items": [
         { "title": "20 tonnu jauda", "description": "Jaudīgs 20 tonnu ekskavators smagiem zemes darbiem un celmu raušanai." },
@@ -423,7 +423,7 @@
       "cta": { "title": "Nepieciešami ekskavatora pakalpojumi?", "description": "Kvalitatīvi zemes darbi ar profesionālu tehniku.", "buttonText": "Saņemt piedāvājumu" }
     },
     "kniebeja-ekskavatora-pakalpojumi": {
-      "meta": { "title": "Kniebēja ekskavatora pakalpojumi | AM Forest", "description": "Kniebēja ekskavatora pakalpojumi precīziem zemes darbiem. Manevrētspējīga tehnika šaurās vietās.", "keywords": "kniebējs ekskavators, riteņu ekskavators, precīzi zemes darbi" },
+      "meta": { "title": "Kniebēja ekskavatora pakalpojumi | Forest", "description": "Kniebēja ekskavatora pakalpojumi precīziem zemes darbiem. Manevrētspējīga tehnika šaurās vietās.", "keywords": "kniebējs ekskavators, riteņu ekskavators, precīzi zemes darbi" },
       "hero": { "title": "Kniebēja ekskavatora pakalpojumi", "description": "Kniebēja ekskavatora pakalpojumi precīziem zemes darbiem. Ideāli piemērots darbam ierobežotās teritorijās." },
       "features": { "title": "Ekskavatora īpašības", "items": [
         { "title": "Manevrētspēja", "description": "Riteņu šasija ļauj ātri pārvietoties un strādāt šaurās vietās." },
@@ -438,7 +438,7 @@
       "cta": { "title": "Vajadzīgi precīzi zemes darbi?", "description": "Mūsu kniebēja ekskavatora operatori nodrošinās kvalitatīvu darbu izpildi.", "buttonText": "Pieteikt pakalpojumu" }
     },
     "kokvedeja-pakalpojumi": {
-      "meta": { "title": "Kokvedēja pakalpojumi | AM Forest", "description": "Kokvedēja pakalpojumi kokmateriālu transportēšanai lielos apjomos. Droša un efektīva loģistika.", "keywords": "kokvedējs, kokmateriālu transports, meža loģistika" },
+      "meta": { "title": "Kokvedēja pakalpojumi | Forest", "description": "Kokvedēja pakalpojumi kokmateriālu transportēšanai lielos apjomos. Droša un efektīva loģistika.", "keywords": "kokvedējs, kokmateriālu transports, meža loģistika" },
       "hero": { "title": "Kokvedēja pakalpojumi", "description": "Kokvedēja pakalpojumi kokmateriālu transportēšanai lielos apjomos. Mūsu autoparks nodrošina drošu un savlaicīgu piegādi." },
       "features": { "title": "Transporta priekšrocības", "items": [
         { "title": "Liela kravnesība", "description": "Mūsu kokvedēji spēj pārvadāt līdz 40 tonnām kokmateriālu." },
@@ -453,7 +453,7 @@
       "cta": { "title": "Nepieciešams kokvedēja transports?", "description": "Uzticiet savu kravu profesionāļiem ar pieredzi.", "buttonText": "Pasūtīt transportu" }
     },
     "kokvedeja-puspiekabes-pakalpojumi": {
-      "meta": { "title": "Kokvedēja puspiekabes pakalpojumi | AM Forest", "description": "Kokvedēja puspiekabes pakalpojumi garām kravām. Specializēts transports garmateriāliem.", "keywords": "kokvedēja puspiekabe, garmateriāli, kokmateriālu transports" },
+      "meta": { "title": "Kokvedēja puspiekabes pakalpojumi | Forest", "description": "Kokvedēja puspiekabes pakalpojumi garām kravām. Specializēts transports garmateriāliem.", "keywords": "kokvedēja puspiekabe, garmateriāli, kokmateriālu transports" },
       "hero": { "title": "Kokvedēja puspiekabes pakalpojumi", "description": "Specializēti kokvedēja puspiekabes pakalpojumi garmateriālu transportēšanai. Ideāli piemēroti garām kokmateriālu kravām." },
       "features": { "title": "Puspiekabes priekšrocības", "items": [
         { "title": "Garmateriālu transports", "description": "Speciāli konstruēta garmateriālu pārvadāšanai līdz 24 metriem." },
@@ -468,7 +468,7 @@
       "cta": { "title": "Jāpārvadā garmateriāli?", "description": "Mūsu specializētā tehnika nodrošinās drošu pārvadājumu.", "buttonText": "Saņemt konsultāciju" }
     },
     "malkas-skalditaja-pakalpojumi": {
-      "meta": { "title": "Malkas skaldītāja pakalpojumi | AM Forest", "description": "Profesionāla malkas skaldīšana ar augstražīgu tehniku. Kvalitatīva kurināmā sagatavošana.", "keywords": "malkas skaldīšana, kurināmais, malkas sagatavošana" },
+      "meta": { "title": "Malkas skaldītāja pakalpojumi | Forest", "description": "Profesionāla malkas skaldīšana ar augstražīgu tehniku. Kvalitatīva kurināmā sagatavošana.", "keywords": "malkas skaldīšana, kurināmais, malkas sagatavošana" },
       "hero": { "title": "Malkas skaldītāja pakalpojumi", "description": "Profesionāla malkas skaldīšana ar augstražīgu tehniku. Nodrošinām kvalitatīva kurināmā sagatavošanu jebkurā apjomā." },
       "features": { "title": "Pakalpojuma priekšrocības", "items": [
         { "title": "Augsta ražība", "description": "Spējam sagatavot līdz 100 kubikmetriem malkas dienā." },
@@ -483,7 +483,7 @@
       "cta": { "title": "Nepieciešama malkas skaldīšana?", "description": "Kvalitatīva kurināmā sagatavošana ar profesionālu tehniku.", "buttonText": "Pasūtīt pakalpojumu" }
     },
     "auto-servisa-pakalpojumi": {
-      "meta": { "title": "Auto servisa pakalpojumi | AM Forest", "description": "Specializēts auto serviss meža tehnikas apkopei un remontam. Profesionāla tehniskā apkope.", "keywords": "auto serviss, meža tehnikas remonts, tehniskā apkope" },
+      "meta": { "title": "Auto servisa pakalpojumi | Forest", "description": "Specializēts auto serviss meža tehnikas apkopei un remontam. Profesionāla tehniskā apkope.", "keywords": "auto serviss, meža tehnikas remonts, tehniskā apkope" },
       "hero": { "title": "Auto servisa pakalpojumi", "description": "Specializēts auto serviss meža tehnikas apkopei un remontam. Nodrošinām kvalitatīvu servisu visai meža tehnikai." },
       "features": { "title": "Servisa iespējas", "items": [
         { "title": "Pilns serviss", "description": "Veicam gan profilaktisko apkopi, gan sarežģītus remontus." },
@@ -498,7 +498,7 @@
       "cta": { "title": "Nepieciešama tehnikas apkope?", "description": "Uzticiet savu tehniku profesionāļiem.", "buttonText": "Pieteikt apkopi" }
     },
     "telpu-ire": {
-      "meta": { "title": "Telpu īre | AM Forest", "description": "Biroja un noliktavu telpu īre ar ērtu piekļuvi. Modernas telpas jūsu biznesam.", "keywords": "telpu īre, biroja telpas, noliktavu telpas" },
+      "meta": { "title": "Telpu īre | Forest", "description": "Biroja un noliktavu telpu īre ar ērtu piekļuvi. Modernas telpas jūsu biznesam.", "keywords": "telpu īre, biroja telpas, noliktavu telpas" },
       "hero": { "title": "Telpu īre", "description": "Biroja un noliktavu telpu īre ar ērtu piekļuvi. Piedāvājam modernas un funkcionālas telpas jūsu biznesa vajadzībām." },
       "features": { "title": "Telpu priekšrocības", "items": [
         { "title": "Ērta atrašanās vieta", "description": "Telpas atrodas ar labu piekļuvi un transporta savienojumiem." },
@@ -513,7 +513,7 @@
       "cta": { "title": "Meklējat telpas īrei?", "description": "Piedāvājam labākos risinājumus jūsu biznesa vajadzībām.", "buttonText": "Apskatīt telpas" }
     },
     "dastosanas-pakalpojumi": {
-      "meta": { "title": "Dastošanas pakalpojumi | AM Forest", "description": "Precīza meža dastošana un uzmērīšana profesionāliem mērķiem. Sertificēti speciālisti.", "keywords": "meža dastošana, kokmateriālu uzmērīšana, meža inventarizācija" },
+      "meta": { "title": "Dastošanas pakalpojumi | Forest", "description": "Precīza meža dastošana un uzmērīšana profesionāliem mērķiem. Sertificēti speciālisti.", "keywords": "meža dastošana, kokmateriālu uzmērīšana, meža inventarizācija" },
       "hero": { "title": "Dastošanas pakalpojumi", "description": "Precīza meža dastošana un uzmērīšana profesionāliem mērķiem. Mūsu sertificēti speciālisti nodrošina augstu mērījumu precizitāti." },
       "features": { "title": "Pakalpojuma kvalitāte", "items": [
         { "title": "Augsta precizitāte", "description": "Izmantojam modernās mērīšanas tehnoloģijas un metodes." },
@@ -528,7 +528,7 @@
       "cta": { "title": "Nepieciešama precīza dastošana?", "description": "Uzticiet kokmateriālu uzskaiti profesionāļiem.", "buttonText": "Pasūtīt dastošanu" }
     },
     "meza-projekta-taksacijas": {
-      "meta": { "title": "Meža projekta taksācijas | AM Forest", "description": "Meža taksācija un projektu izstrāde ilgtspējīgai apsaimniekošanai. Profesionāla meža inventarizācija.", "keywords": "meža taksācija, meža projekti, meža inventarizācija" },
+      "meta": { "title": "Meža projekta taksācijas | Forest", "description": "Meža taksācija un projektu izstrāde ilgtspējīgai apsaimniekošanai. Profesionāla meža inventarizācija.", "keywords": "meža taksācija, meža projekti, meža inventarizācija" },
       "hero": { "title": "Meža projekta taksācijas", "description": "Meža taksācija un projektu izstrāde ilgtspējīgai apsaimniekošanai. Nodrošinām profesionālu meža resursu novērtēšanu." },
       "features": { "title": "Taksācijas pakalpojumi", "items": [
         { "title": "Pilna inventarizācija", "description": "Detalizēta meža resursu uzskaite un novērtēšana." },
@@ -543,7 +543,7 @@
       "cta": { "title": "Nepieciešama meža taksācija?", "description": "Profesionāla meža inventarizācija ilgtspējīgai apsaimniekošanai.", "buttonText": "Pieteikt taksāciju" }
     },
     "stigosanas-pakalpojumi": {
-      "meta": { "title": "Stigošanas pakalpojumi | AM Forest", "description": "Meža stigošana un robežu noteikšana ar precīzu aprīkojumu. Cirsmu iezīmēšana un uzmērīšana.", "keywords": "meža stigošana, robežu noteikšana, cirsmu iezīmēšana" },
+      "meta": { "title": "Stigošanas pakalpojumi | Forest", "description": "Meža stigošana un robežu noteikšana ar precīzu aprīkojumu. Cirsmu iezīmēšana un uzmērīšana.", "keywords": "meža stigošana, robežu noteikšana, cirsmu iezīmēšana" },
       "hero": { "title": "Stigošanas pakalpojumi", "description": "Meža stigošana un robežu noteikšana ar precīzu aprīkojumu. Profesionāla cirsmu iezīmēšana un meža robežu marķēšana." },
       "features": { "title": "Stigošanas precizitāte", "items": [
         { "title": "GPS tehnoloģijas", "description": "Izmantojam precīzas GPS iekārtas robežu noteikšanai." },
@@ -561,8 +561,8 @@
   "articles": {
     "forestMaintenance": {
       "meta": {
-        "title": "Kāpēc jākopj mežs? | AM Forest",
-        "description": "Uzziniet, kāpēc meža kopšana ir svarīga un kā tā ietekmē meža vērtību. AM Forest piedāvā profesionālu meža kopšanu."
+        "title": "Kāpēc jākopj mežs? | Forest",
+        "description": "Uzziniet, kāpēc meža kopšana ir svarīga un kā tā ietekmē meža vērtību. Forest piedāvā profesionālu meža kopšanu."
       },
       "hero": {
         "title": "Kāpēc jākopj mežs?",
@@ -573,14 +573,14 @@
         "heading": "Agrotehniskā kopšana",
         "p1": "Pirmajos gados pēc meža atjaunošanas svarīgi nodrošināt, lai jaunie kociņi netiktu nomākti ar zāli, krūmiem un nevēlamām atvasēm. Agrotehniskās kopšanas laikā tiek atbrīvota augšanas telpa ap mērķa koku sugām, ļaujot tām augt spēcīgākām un taisnākām.",
         "p2": "Šie darbi parasti tiek veikti vairākus gadus pēc stādīšanas vai dabiskās atjaunošanās, atkarībā no tā, cik intensīvi platība aizaug. Regulāra kopšana palīdz samazināt bojāgājušo koku skaitu un veicina vienmērīgu mežaudzes attīstību.",
-        "p3": "AM Forest nodrošina profesionālu agrotehnisko kopšanu, izvērtējot katras platības apstākļus un pielāgojot darbu intensitāti konkrētajai situācijai.",
+        "p3": "Forest nodrošina profesionālu agrotehnisko kopšanu, izvērtējot katras platības apstākļus un pielāgojot darbu intensitāti konkrētajai situācijai.",
         "imageAlt": "Agrotehniskā meža kopšana"
       },
       "youngStands": {
         "heading": "Jaunaudžu kopšana",
         "p1": "Kad mežs jau paaudzies, nākamais svarīgais solis ir jaunaudžu kopšana. Tās mērķis ir izveidot kvalitatīvu, veselīgu un produktīvu kokaudzi ar piemērotu koku sugu sastāvu un optimālu koku skaitu uz hektāra.",
         "p2": "Savlaicīgi kopta jaunaudze aug ātrāk, koki kļūst resnāki un noturīgāki, un nākotnē iespējams iegūt augstvērtīgāku koksni. Kopšanas laikā tiek izņemti konkurējošie, bojātie vai mazvērtīgie koki, dodot priekšroku spēcīgākajiem un perspektīvākajiem kokiem. Šādi darbi palīdz veidot mežu ar lielāku ekonomisko vērtību nākotnes cirsmās.",
-        "p3": "AM Forest veic jaunaudžu kopšanu atbilstoši konkrētā meža vecumam, sastāvam un augšanas apstākļiem, nodrošinot ilgtermiņā veselīgu, noturīgu un vērtīgu mežu.",
+        "p3": "Forest veic jaunaudžu kopšanu atbilstoši konkrētā meža vecumam, sastāvam un augšanas apstākļiem, nodrošinot ilgtermiņā veselīgu, noturīgu un vērtīgu mežu.",
         "imageAlt": "Jaunaudžu kopšana"
       },
       "benefits": {
@@ -592,7 +592,7 @@
           "Sakoptu un pārskatāmu meža īpašumu.",
           "Lielāku finansiālo atdevi nākotnes cirsmās."
         ],
-        "outro": "AM Forest palīdz meža īpašniekiem parūpēties par savu mežu visos tā attīstības posmos, nodrošinot profesionālu un pārdomātu meža kopšanu."
+        "outro": "Forest palīdz meža īpašniekiem parūpēties par savu mežu visos tā attīstības posmos, nodrošinot profesionālu un pārdomātu meža kopšanu."
       },
       "cta": {
         "heading": "Nepieciešama meža kopšana?",
@@ -602,8 +602,8 @@
     },
     "sellForest": {
       "meta": {
-        "title": "Kā pārdot mežu? | AM Forest",
-        "description": "Uzziniet, kā pareizi pārdot meža īpašumu. AM Forest palīdz ar meža novērtēšanu un pārdošanas procesu."
+        "title": "Kā pārdot mežu? | Forest",
+        "description": "Uzziniet, kā pareizi pārdot meža īpašumu. Forest palīdz ar meža novērtēšanu un pārdošanas procesu."
       },
       "hero": {
         "title": "Kā pārdot mežu?",
@@ -643,8 +643,8 @@
         "imageAlt": "Meža dokumentācija"
       },
       "howWeHelp": {
-        "heading": "Kā AM Forest palīdz meža pārdošanā?",
-        "p1": "AM Forest palīdz īpašniekiem saprast sava meža vērtību, izskaidro pārdošanas iespējas un nodrošina skaidru un pārskatāmu darījuma procesu bez slēptiem nosacījumiem. Mēs pieejam katram īpašumam individuāli un piedāvājam godīgus, tirgus situācijai atbilstošus nosacījumus.",
+        "heading": "Kā Forest palīdz meža pārdošanā?",
+        "p1": "Forest palīdz īpašniekiem saprast sava meža vērtību, izskaidro pārdošanas iespējas un nodrošina skaidru un pārskatāmu darījuma procesu bez slēptiem nosacījumiem. Mēs pieejam katram īpašumam individuāli un piedāvājam godīgus, tirgus situācijai atbilstošus nosacījumus.",
         "p2": "Mūsu mērķis ir, lai meža pārdošana jums būtu droša, saprotama un finansiāli izdevīga, bez lieka stresa un neskaidrībām."
       },
       "cta": {
@@ -655,8 +655,8 @@
     },
     "whenToHarvest": {
       "meta": {
-        "title": "Kad ir īstais laiks cirst mežu? | AM Forest",
-        "description": "Uzziniet, kā noteikt labāko laiku meža ciršanai. AM Forest palīdz izvērtēt mežaudzes gatavību."
+        "title": "Kad ir īstais laiks cirst mežu? | Forest",
+        "description": "Uzziniet, kā noteikt labāko laiku meža ciršanai. Forest palīdz izvērtēt mežaudzes gatavību."
       },
       "hero": {
         "title": "Kad ir īstais laiks cirst mežu?",
@@ -692,7 +692,7 @@
           "description": "Dažkārt lēmumu nosaka praktiski iemesli. Var būt nepieciešami līdzekļi, trūkst laika apsaimniekošanai vai īpašums atrodas tālu no dzīvesvietas."
         }
       ],
-      "conclusion": "AM Forest izvērtē jūsu mežaudzes vecumu, sastāvu, veselību un kopšanas vēsturi, kā arī tirgus situāciju. Pareizi izvēlēts laiks ciršanai ir viens no svarīgākajiem lēmumiem meža vērtības palielināšanai.",
+      "conclusion": "Forest izvērtē jūsu mežaudzes vecumu, sastāvu, veselību un kopšanas vēsturi, kā arī tirgus situāciju. Pareizi izvēlēts laiks ciršanai ir viens no svarīgākajiem lēmumiem meža vērtības palielināšanai.",
       "cta": {
         "heading": "Vēlaties uzzināt, vai jūsu mežs ir gatavs ciršanai?",
         "description": "Mūsu eksperti izvērtēs mežaudzes stāvokli un sniegs profesionālu ieteikumu.",
@@ -701,7 +701,7 @@
     },
     "beforeLogging": {
       "meta": {
-        "title": "Kas jāzina pirms meža nociršanas? | AM Forest",
+        "title": "Kas jāzina pirms meža nociršanas? | Forest",
         "description": "Svarīgākā informācija pirms meža ciršanas. Dokumenti, ierobežojumi un darbu organizēšana."
       },
       "hero": {
@@ -741,7 +741,7 @@
           "description": "Svarīgi izvēlēties uzticamu izpildītāju, kas strādā atbildīgi un ievēro gan likumdošanu, gan saimniecisko loģiku. Nepareizi veikta ciršana var radīt zaudējumus gan mežam, gan īpašniekam."
         }
       ],
-      "conclusion": "AM Forest izvērtē visus būtiskos faktorus pirms meža ciršanas – mežaudzes vecumu, stāvokli, piekļuves iespējas, dokumentāciju un tirgus situāciju. Mēs pārliecināmies, ka ciršana tiek veikta piemērotā laikā un veidā, lai īpašnieks iegūtu maksimālu atdevi no sava meža. Mēs sakārtojam nepieciešamos dokumentus, organizējam ciršanas darbus un nodrošinām kvalitatīvu meža atjaunošanu pēc izstrādes.",
+      "conclusion": "Forest izvērtē visus būtiskos faktorus pirms meža ciršanas – mežaudzes vecumu, stāvokli, piekļuves iespējas, dokumentāciju un tirgus situāciju. Mēs pārliecināmies, ka ciršana tiek veikta piemērotā laikā un veidā, lai īpašnieks iegūtu maksimālu atdevi no sava meža. Mēs sakārtojam nepieciešamos dokumentus, organizējam ciršanas darbus un nodrošinām kvalitatīvu meža atjaunošanu pēc izstrādes.",
       "imageAlt": "Meža ciršanas darbi",
       "cta": {
         "heading": "Plānojat meža ciršanu?",

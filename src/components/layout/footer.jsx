@@ -9,17 +9,10 @@ export default function Footer() {
       <div className="px-6 md:px-12 lg:px-20">
         {/* Main content area */}
         <div className="flex flex-col lg:flex-row items-start justify-between gap-8 md:gap-12 lg:gap-16 mb-12 md:mb-16 lg:mb-20">
-          {/* Left side - Main heading with logo and forest text */}
+          {/* Left side - Main heading with the wordmark */}
           <div className="flex-1 max-w-2xl">
-            <div className="flex items-center gap-3 mb-6">
-              <img 
-                src="/image/amforest-logo-white.svg" 
-                alt="AM Forest" 
-                className="h-12 md:h-14 lg:h-16 w-auto"
-              />
-              <div className="text-white font-semibold text-xl md:text-2xl">
-                Forest
-              </div>
+            <div className="text-white font-semibold text-xl md:text-2xl mb-6">
+              Forest
             </div>
             <h2 className="text-white font-bold text-2xl md:text-4xl lg:text-6xl leading-tight">
               {t('footer.heading')}
@@ -65,7 +58,7 @@ export default function Footer() {
                 >
                   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                 </svg>
-                <span className="text-base md:text-lg">info@amforest.lv</span>
+                <span className="text-base md:text-lg">info@forest.lv</span>
               </div>
             </div>
           </div>

@@ -3,89 +3,89 @@ function generateSiteMap() {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!-- Static pages -->
      <url>
-       <loc>https://amforest.lv</loc>
+       <loc>https://forest.lv</loc>
        <changefreq>monthly</changefreq>
        <priority>1.0</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/about</loc>
+       <loc>https://forest.lv/about</loc>
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services</loc>
+       <loc>https://forest.lv/services</loc>
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/contact</loc>
+       <loc>https://forest.lv/contact</loc>
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
      </url>
      
      <!-- Service pages -->
      <url>
-       <loc>https://amforest.lv/services/treilera-pakalpojumi</loc>
+       <loc>https://forest.lv/services/treilera-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/mezizvedeja-traktora-pakalpojumi</loc>
+       <loc>https://forest.lv/services/mezizvedeja-traktora-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/universala-ritenu-traktora-pakalpojumi</loc>
+       <loc>https://forest.lv/services/universala-ritenu-traktora-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/kezu-ekskavatora-pakalpojumi</loc>
+       <loc>https://forest.lv/services/kezu-ekskavatora-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/kniebeja-ekskavatora-pakalpojumi</loc>
+       <loc>https://forest.lv/services/kniebeja-ekskavatora-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/kokvedeja-pakalpojumi</loc>
+       <loc>https://forest.lv/services/kokvedeja-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/kokvedeja-puspiekabes-pakalpojumi</loc>
+       <loc>https://forest.lv/services/kokvedeja-puspiekabes-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/malkas-skalditaja-pakalpojumi</loc>
+       <loc>https://forest.lv/services/malkas-skalditaja-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/auto-servisa-pakalpojumi</loc>
+       <loc>https://forest.lv/services/auto-servisa-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/telpu-ire</loc>
+       <loc>https://forest.lv/services/telpu-ire</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/dastosanas-pakalpojumi</loc>
+       <loc>https://forest.lv/services/dastosanas-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/meza-projekta-taksacijas</loc>
+       <loc>https://forest.lv/services/meza-projekta-taksacijas</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>
      <url>
-       <loc>https://amforest.lv/services/stigosanas-pakalpojumi</loc>
+       <loc>https://forest.lv/services/stigosanas-pakalpojumi</loc>
        <changefreq>monthly</changefreq>
        <priority>0.7</priority>
      </url>

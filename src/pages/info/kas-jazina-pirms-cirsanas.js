@@ -23,7 +23,7 @@ const KasJazinaPirmsCirsanas = () => {
         <meta name="description" content={t('articles.beforeLogging.meta.description')} />
         <meta property="og:title" content={t('articles.beforeLogging.meta.title')} />
         <meta property="og:description" content={t('articles.beforeLogging.meta.description')} />
-        <link rel="canonical" href="https://amforest.lv/info/kas-jazina-pirms-cirsanas" />
+        <link rel="canonical" href="https://forest.lv/info/kas-jazina-pirms-cirsanas" />
       </Head>
 
       <ArticleHero 

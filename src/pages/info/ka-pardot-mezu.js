@@ -26,7 +26,7 @@ const KaPardotMezu = () => {
         <meta name="description" content={t('articles.sellForest.meta.description')} />
         <meta property="og:title" content={t('articles.sellForest.meta.title')} />
         <meta property="og:description" content={t('articles.sellForest.meta.description')} />
-        <link rel="canonical" href="https://amforest.lv/info/ka-pardot-mezu" />
+        <link rel="canonical" href="https://forest.lv/info/ka-pardot-mezu" />
       </Head>
 
       <ArticleHero 
@@ -80,7 +80,7 @@ const KaPardotMezu = () => {
         bgColor="#f3ecda"
       />
 
-      {/* How AM Forest helps */}
+      {/* How Forest helps */}
       <ArticleContentSection
         heading={t('articles.sellForest.howWeHelp.heading')}
         paragraphs={[

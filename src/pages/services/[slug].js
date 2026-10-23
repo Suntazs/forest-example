@@ -15,7 +15,7 @@ import servicesData from '@/data/servicesData';
 const servicesDataTemp = {
   'treilera-pakalpojumi': {
     meta: {
-      title: "Treilera pakalpojumi | AM Forest",
+      title: "Treilera pakalpojumi | Forest",
       description: "Profesionāli treilera pakalpojumi meža un kokmateriālu transportēšanai Latvijā. Droša un efektīva kravu pārvietošana.",
       keywords: "treilera pakalpojumi, kokmateriālu transportēšana, meža tehnika"
     },
@@ -92,7 +92,7 @@ const servicesDataTemp = {
   },
   'mezizvedeja-traktora-pakalpojumi': {
     meta: {
-      title: "Mežizvedēja traktora pakalpojumi | AM Forest",
+      title: "Mežizvedēja traktora pakalpojumi | Forest",
       description: "Specializēti mežizvedēja traktora pakalpojumi kokmateriālu savākšanai un transportēšanai sarežģītos meža apstākļos.",
       keywords: "mežizvedēja traktors, kokmateriālu izvešana, meža darbi"
     },
@@ -171,7 +171,7 @@ const servicesDataTemp = {
   // Add more services here following the same pattern...
   'universala-ritenu-traktora-pakalpojumi': {
     meta: {
-      title: "Universālā riteņu traktora pakalpojumi | AM Forest",
+      title: "Universālā riteņu traktora pakalpojumi | Forest",
       description: "9 tonnu universālā riteņu traktora pakalpojumi dažādiem meža darbiem. Profesionāla tehnika un operatori.",
       keywords: "universālais traktors, riteņu traktors, meža tehnika, 9 tonnas"
     },
@@ -321,7 +321,7 @@ const ServicePage = ({ slug, serviceData }) => {
         <meta property="og:title" content={meta.title} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://amforest.lv/services/${slug}`} />
+        <link rel="canonical" href={`https://forest.lv/services/${slug}`} />
       </Head>
 
       <ServiceHero 

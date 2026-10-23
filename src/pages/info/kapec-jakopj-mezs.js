@@ -21,7 +21,7 @@ const KapecJakopjMezs = () => {
         <meta name="description" content={t('articles.forestMaintenance.meta.description')} />
         <meta property="og:title" content={t('articles.forestMaintenance.meta.title')} />
         <meta property="og:description" content={t('articles.forestMaintenance.meta.description')} />
-        <link rel="canonical" href="https://amforest.lv/info/kapec-jakopj-mezs" />
+        <link rel="canonical" href="https://forest.lv/info/kapec-jakopj-mezs" />
       </Head>
 
       <ArticleHero 

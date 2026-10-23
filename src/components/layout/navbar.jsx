@@ -118,16 +118,9 @@ export default function Navbar({ onMenuToggle, isMenuOpen, setIsMenuOpen }) {
     }}>
       <div className="w-full px-4 sm:px-6 md:px-8 py-4 md:py-6">
         <div className="relative flex items-center justify-between">
-          {/* Left side - Logo and company name */}
-          <div className="flex items-center gap-2 md:gap-3">
-            <img
-              src="/image/amforest-logo-white.svg"
-              alt="AM Forest"
-              className="h-10 md:h-12 lg:h-14 w-auto"
-            />
-            <div className="text-neutral-200 font-semibold text-lg md:text-xl lg:text-2xl whitespace-nowrap">
-              Forest
-            </div>
+          {/* Left side - company name */}
+          <div className="text-neutral-200 font-semibold text-lg md:text-xl lg:text-2xl whitespace-nowrap">
+            Forest
           </div>
 
           {/* Center - main navigation links */}

@@ -32,7 +32,7 @@ export default function ContactPage() {
           <div className="flex flex-col justify-center px-8 lg:px-16 py-12 lg:py-0">
             <div>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-[#243c36] mb-8">
-                SIA "AM FOREST"
+                SIA "FOREST"
               </h1>
               
               <div className="space-y-3 text-lg lg:text-xl text-[#243c36]/80">
@@ -53,8 +53,8 @@ export default function ContactPage() {
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <a href="mailto:info@amforest.lv" className="hover:text-[#243c36] transition-colors">
-                      info@amforest.lv
+                    <a href="mailto:info@forest.lv" className="hover:text-[#243c36] transition-colors">
+                      info@forest.lv
                     </a>
                   </p>
                   <p className="flex items-center gap-2">

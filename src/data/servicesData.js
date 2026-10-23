@@ -2,7 +2,7 @@
 const servicesData = {
   'treilera-pakalpojumi': {
     meta: {
-      title: "Treilera pakalpojumi | AM Forest",
+      title: "Treilera pakalpojumi | Forest",
       description: "Profesionāli treilera pakalpojumi meža un kokmateriālu transportēšanai Latvijā. Droša un efektīva kravu pārvietošana.",
       keywords: "treilera pakalpojumi, kokmateriālu transportēšana, meža tehnika"
     },
@@ -74,7 +74,7 @@ const servicesData = {
   
   'mezizvedeja-traktora-pakalpojumi': {
     meta: {
-      title: "Mežizvedēja traktora pakalpojumi | AM Forest",
+      title: "Mežizvedēja traktora pakalpojumi | Forest",
       description: "Specializēti mežizvedēja traktora pakalpojumi kokmateriālu savākšanai un transportēšanai sarežģītos meža apstākļos.",
       keywords: "mežizvedēja traktors, kokmateriālu izvešana, meža darbi"
     },
@@ -145,7 +145,7 @@ const servicesData = {
 
   'universala-ritenu-traktora-pakalpojumi': {
     meta: {
-      title: "Universālā riteņu traktora pakalpojumi | AM Forest",
+      title: "Universālā riteņu traktora pakalpojumi | Forest",
       description: "9 tonnu universālā riteņu traktora pakalpojumi dažādiem meža darbiem. Profesionāla tehnika un operatori.",
       keywords: "universālais traktors, riteņu traktors, meža tehnika, 9 tonnas"
     },
@@ -219,7 +219,7 @@ const servicesData = {
 
   'kezu-ekskavatora-pakalpojumi': {
     meta: {
-      title: "Ķēžu ekskavatora pakalpojumi | AM Forest",
+      title: "Ķēžu ekskavatora pakalpojumi | Forest",
       description: "20 tonnu ķēžu ekskavatora pakalpojumi celmu raušanai, grāvju rakšanai un zemes darbiem.",
       keywords: "ķēžu ekskavators, celmu raušana, grāvju rakšana, 20 tonnas"
     },
@@ -294,7 +294,7 @@ const servicesData = {
 
   'kniebeja-ekskavatora-pakalpojumi': {
     meta: {
-      title: "Kniebēja ekskavatora pakalpojumi | AM Forest",
+      title: "Kniebēja ekskavatora pakalpojumi | Forest",
       description: "Kniebēja ekskavatora pakalpojumi precīziem zemes darbiem. Manevrētspējīga tehnika šaurās vietās.",
       keywords: "kniebējs ekskavators, riteņu ekskavators, precīzi zemes darbi"
     },
@@ -365,7 +365,7 @@ const servicesData = {
 
   'kokvedeja-pakalpojumi': {
     meta: {
-      title: "Kokvedēja pakalpojumi | AM Forest",
+      title: "Kokvedēja pakalpojumi | Forest",
       description: "Kokvedēja pakalpojumi kokmateriālu transportēšanai lielos apjomos. Droša un efektīva loģistika.",
       keywords: "kokvedējs, kokmateriālu transports, meža loģistika"
     },
@@ -441,7 +441,7 @@ const servicesData = {
 
   'kokvedeja-puspiekabes-pakalpojumi': {
     meta: {
-      title: "Kokvedēja puspiekabes pakalpojumi | AM Forest",
+      title: "Kokvedēja puspiekabes pakalpojumi | Forest",
       description: "Kokvedēja puspiekabes pakalpojumi garām kravām. Specializēts transports garmateriāliem.",
       keywords: "kokvedēja puspiekabe, garmateriāli, kokmateriālu transports"
     },
@@ -514,7 +514,7 @@ const servicesData = {
 
   'malkas-skalditaja-pakalpojumi': {
     meta: {
-      title: "Malkas skaldītāja pakalpojumi | AM Forest",
+      title: "Malkas skaldītāja pakalpojumi | Forest",
       description: "Profesionāla malkas skaldīšana ar augstražīgu tehniku. Kvalitatīva kurināmā sagatavošana.",
       keywords: "malkas skaldīšana, kurināmais, malkas sagatavošana"
     },
@@ -586,7 +586,7 @@ const servicesData = {
 
   'auto-servisa-pakalpojumi': {
     meta: {
-      title: "Auto servisa pakalpojumi | AM Forest",
+      title: "Auto servisa pakalpojumi | Forest",
       description: "Specializēts auto serviss meža tehnikas apkopei un remontam. Profesionāla tehniskā apkope.",
       keywords: "auto serviss, meža tehnikas remonts, tehniskā apkope"
     },
@@ -659,7 +659,7 @@ const servicesData = {
 
   'telpu-ire': {
     meta: {
-      title: "Telpu īre | AM Forest",
+      title: "Telpu īre | Forest",
       description: "Biroja un noliktavu telpu īre ar ērtu piekļuvi. Modernas telpas jūsu biznesam.",
       keywords: "telpu īre, biroja telpas, noliktavu telpas"
     },
@@ -732,7 +732,7 @@ const servicesData = {
 
   'dastosanas-pakalpojumi': {
     meta: {
-      title: "Dastošanas pakalpojumi | AM Forest",
+      title: "Dastošanas pakalpojumi | Forest",
       description: "Precīza meža dastošana un uzmērīšana profesionāliem mērķiem. Sertificēti speciālisti.",
       keywords: "meža dastošana, kokmateriālu uzmērīšana, meža inventarizācija"
     },
@@ -804,7 +804,7 @@ const servicesData = {
 
   'meza-projekta-taksacijas': {
     meta: {
-      title: "Meža projekta taksācijas | AM Forest",
+      title: "Meža projekta taksācijas | Forest",
       description: "Meža taksācija un projektu izstrāde ilgtspējīgai apsaimniekošanai. Profesionāla meža inventarizācija.",
       keywords: "meža taksācija, meža projekti, meža inventarizācija"
     },
@@ -878,7 +878,7 @@ const servicesData = {
 
   'stigosanas-pakalpojumi': {
     meta: {
-      title: "Stigošanas pakalpojumi | AM Forest",
+      title: "Stigošanas pakalpojumi | Forest",
       description: "Meža stigošana un robežu noteikšana ar precīzu aprīkojumu. Cirsmu iezīmēšana un uzmērīšana.",
       keywords: "meža stigošana, robežu noteikšana, cirsmu iezīmēšana"
     },

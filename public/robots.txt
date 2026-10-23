@@ -14,7 +14,7 @@ Allow: /about
 Allow: /contact
 
 # Sitemap
-Sitemap: https://amforest.lv/sitemap.xml
+Sitemap: https://forest.lv/sitemap.xml
 
 # Disallow admin/studio pages
 Disallow: /studio
